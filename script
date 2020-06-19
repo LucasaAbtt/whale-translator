@@ -1,0 +1,11 @@
+const input="";
+const vowels=["a","e","i","o","u"]
+const resultArray=[];
+for (i=0;i<input.length;i++){
+for (j=0;j<vowels.length;j++){
+  if(input[i]===vowels[j]){resultArray.push(vowels[j])}}
+  if(input[i]==="e"||input[i]==="u"){resultArray.push(input[i])}
+}
+var permanente=resultArray.join("")
+var permanente2=permanente.toUpperCase()
+console.log(permanente2)
